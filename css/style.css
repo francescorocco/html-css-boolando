@@ -91,3 +91,24 @@ section img{
     top: 70%;
     left: 13%;
 }
+
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left: 89%;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.img-hover{
+    display: none;
+}
+
+.change-hover:hover .img-hover{
+    display: block;
+}
+
+.change-hover:hover .img-frontal{
+    display: none;
+}
