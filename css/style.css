@@ -122,3 +122,37 @@ section img{
 .heart:hover{
     color: red;
 }
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    max-width: 1170px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 15px 0px;
+    display: inline-block;
+}
+
+footer h2 {
+    padding: 20px 0px;
+}
+
+footer span {
+    padding: 20px 0px;
+    display: block;
+}
+
+.icon {
+    font-size: 1.3em;
+}
+
+
