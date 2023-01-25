@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .fixed-bar{
@@ -32,14 +32,28 @@ main{
     font-size: 12px;
 }
 
-
 .fixed-bar ul{
     list-style: none;
     display: flex;
 }
 
-
 .logo img {
     width: 100px;
 }
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: auto;
+    justify-content: center;
+}
+
+.tag-1,.tag-2,.tag-3,.tag-4,.tag-5,.tag-6{
+    width: calc(100% / 3 - 60px);
+    padding: 50px 10px;
+}
+
+section img{
+    width: 100%;
+}
